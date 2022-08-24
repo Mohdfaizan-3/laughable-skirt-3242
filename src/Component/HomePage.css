@@ -1,0 +1,37 @@
+
+*{
+    margin-top: 0;
+}
+.body {
+     min-height: 1000vh;
+     flex-direction: column;
+     display: flex;
+     border: solid 1px black;
+     margin-left: 15rem;
+     margin-right: 15rem;
+ }
+
+.nav,
+.footer {
+    flex-shrink: 0;
+    border: solid 1px black;
+} 
+
+.section{
+    flex-grow: 1;
+}
+
+.nav, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav, ul li {
+    list-style: none;
+    padding: 10px;
+}
+.nav{
+    position: sticky;
+    top: 0px;
+}
